@@ -27,25 +27,12 @@ Tab1Section:NewButton("Reset", "die die. DIE DIE.", function()
     end
 end)
 
-Section1:NewTextBox("spam chat", "spams the text you put", function(txt)
-	loopRunning = true
-    while loopRunning do
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("txt", "All")
-    wait()
-end
-end)
-
-Tab1Section:NewButton("Unspam chat", "why did u click ?", function()
--- script here
-    loopRunning = false
-end)
-
 Tab1Section:NewButton("Spam raid chat", "why u click this?", function()
     -- script here
     loopRunning = true
     
     while loopRunning do
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! .gg/7W944krM || EZ RAID || SERVER RAIDED.", "All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! .gg/7W944krM || EZ RAID LOL || SERVER RAIDED.", "All")
     wait()
 end
 end)
