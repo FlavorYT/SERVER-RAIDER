@@ -1,0 +1,106 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("SERVER RAIDER", "Synapse")
+
+-- Tabs
+
+local Tab1 = Window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main Section") -- Define Tab1Section here
+
+Tab1Section:NewButton("Reset", "die die. DIE DIE.", function()
+    -- script here
+    local player = game.Players.LocalPlayer
+
+    local function dieMyCharacter()
+        local character = player.Character
+        if character then
+            local humanoid = character:FindFirstChild("Humanoid")
+            if humanoid then
+                humanoid.Health = 0
+            end
+        end
+    end
+
+    local triggerCondition = true
+
+    if triggerCondition then
+        dieMyCharacter()
+    end
+end)
+
+Section1:NewTextBox("spam chat", "spams the text you put", function(txt)
+	loopRunning = true
+    while loopRunning do
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("txt", "All")
+    wait()
+end
+end)
+
+Tab1Section:NewButton("Unspam chat", "why did u click ?", function()
+-- script here
+    loopRunning = false
+end)
+
+Tab1Section:NewButton("Spam raid chat", "why u click this?", function()
+    -- script here
+    loopRunning = true
+    
+    while loopRunning do
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! .gg/7W944krM || EZ RAID || SERVER RAIDED.", "All")
+    wait()
+end
+end)
+
+Tab1Section:NewButton("Unspam raid chat", "why did u click ?", function()
+-- script here
+    loopRunning = false
+end)
+
+Tab1Section:NewButton("Fling all (Not Mine)", "why u click this", function()
+    -- script here
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+end)
+
+Tab1Section:NewButton("Loopfling all", "why did u click ?", function()
+    -- script here
+    AUloop = true
+    
+    while AUloop do
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+    wait(1)
+end
+end)
+
+Tab1Section:NewButton("Unloopfling all", "why did u click ?", function()
+-- script here
+    AUloop = false
+end)
+
+local Tab1Section2 = Tab1:NewSection("DANGEROUS SECTION") -- Create a new section for the last button
+Tab1Section2:NewButton("All in one. [CANNOT BE STOPPED]", "why u click", function()
+    -- script here
+    local i = 1
+    while i <= 90 do
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! SERVER RAIDED TO AVOID LEAVE THE SERVER.", "All")
+        i = i + 1
+    end
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+end)
+
+local Tab2 = Window:NewTab("Extra")
+local Tab2Section = Tab2:NewSection("Extra script")
+Tab2Section:NewButton("INFINITE YIELD", "why u click this", function()
+    -- script here
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("NAMELESS ADMIN", "why u click this", function()
+-- script here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+
+local Tab3 = Window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("Made by Flavorleaks.")
+local Tab3Section = Tab3:NewSection("Subcribe for more script like this.")
+local Tab3Section = Tab3:NewSection("DM 12PT#8260 IF BUGS/GLITCHES.")
+local Tab3Section = Tab3:NewSection("I DONT KNOW WHAT IM DOING.")
