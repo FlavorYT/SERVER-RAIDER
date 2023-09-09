@@ -144,11 +144,6 @@ end
 coroutine.wrap(XORDD_fake_script)()
 end)
 
-Tab1Section:NewButton("Stop Spam Chat Gui", "why u click this?", function()
-    -- script here
-    loopSpam = false
-end)
-
 Tab1Section:NewButton("Spam raid chat", "why u click this?", function()
     -- script here
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FlavorYT/SPAM-EZ-GG/main/MADE%20BY%20FLAVORLEAKS%20DISCORD"))()
